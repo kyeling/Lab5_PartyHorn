@@ -7,7 +7,6 @@ var btn = document.getElementById("honk-btn");
 var num = document.getElementById("volume-number");
 var slider = document.getElementById("volume-slider");
 
-// var radios = document.querySelectorAll("radio-sound");
 var radios = document.getElementById("audio-selection").elements;
 
 btn.addEventListener( "click", playSound );

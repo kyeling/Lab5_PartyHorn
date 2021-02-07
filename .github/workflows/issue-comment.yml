@@ -1,7 +1,6 @@
 name: gif comment
 on:
   issues:
-  push:
     types: [opened]
 
 jobs:
